@@ -13,7 +13,7 @@
     "prisma-studio": "(set -a; source .env.local && npx prisma studio)",
     "build": "next build",
     "start-orig": "next start",
-    "start": "next start --hostname devel.resumedit.local -p 3000",
+    "start": "next start -p 3000",
     "lint": "next lint",
     "preview-email": "email dev -p 3030",
     "postinstall": "prisma generate && prisma migrate deploy"
